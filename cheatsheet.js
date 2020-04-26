@@ -1,9 +1,11 @@
-require('dotenv').config();
 const { start, get } = require('prompt');
 const { createTransport } = require('nodemailer');
 const prompts = ['from', 'to', 'subject', 'text'];
 
+require('dotenv').config();
+
 start()
+
 get(prompts, (err, result) => {
     createTransport({
         service: 'gmail',
