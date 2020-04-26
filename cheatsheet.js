@@ -10,8 +10,8 @@ get(prompts, (err, result) => {
     createTransport({
         service: 'gmail',
         auth: {
-            user: process.env['USER'],
-            pass: process.env['PASS']
+            user: process.env.EMAIL,
+            pass: process.env.PASS
         }
     }).sendMail(result, (err, info)=> {
         err ? console.log(err) :
