@@ -1,13 +1,12 @@
 {
-  "name": "mailer-test",
+  "name": "Node Mailer Prompt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node script that prompts user and sends email",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Reuben Remy",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
