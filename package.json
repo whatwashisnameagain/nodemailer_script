@@ -1,5 +1,5 @@
 {
-  "name": "Node Mailer Prompt",
+  "name": "node-mailer-prompt",
   "version": "1.0.0",
   "description": "Node script that prompts user and sends email",
   "main": "index.js",
